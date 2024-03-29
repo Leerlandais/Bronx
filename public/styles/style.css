@@ -1,3 +1,100 @@
 body {
     background-image: url("../images/FOND.png");
 }
+
+.global {
+    display: grid;
+    
+}
+
+.linkWindow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    height: 60%;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navImg {
+    width: 60%;
+    height: 80%;
+}
+
+/*  Won't work like I want. Pity, it would have been cool :)
+.linkSpan {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    height: 250px;
+    width: 30px;
+}
+*/
+
+.linkWindow a {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 30px;
+    margin-bottom: 5px;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.linkSpan {
+    font-weight: bolder ;
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 950px) {
+    
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+    
+}
+
+@media screen and (min-width: 2000px)  {
+
+    
+.linkWindow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navImg {
+    width: 85%;
+    height: 18vh;
+}
+
+.linkWindow a {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 30px;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 12%;
+}
+
+    
+}

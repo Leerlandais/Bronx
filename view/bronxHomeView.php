@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <title>A BLANK PAGE</title>
+    <title>Bronks Theatre</title>
 </head>
 <body>
-    <h6 id="screenwidth"></h6>
-    <script src="scripts/script.js"></script>
+<div class="global">
+<?php
+    require_once ("inc/header.php");
+?>
+    <div class="news">    
+
+    </div><!-- end news -->
+
+    <div class="partners">
+
+    </div><!-- end partners -->
+
+    <div class="footer">
+
+    </div><!-- end footer -->
+
+<h6 id="screenwidth"></h6>
+<script src="scripts/script.js"></script>
+</div> <!-- end global -->
 </body>
 </html>
