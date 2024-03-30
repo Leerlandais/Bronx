@@ -8,8 +8,10 @@
 </head>
 <body>
 <div class="global">
+  
 <?php
     require_once ("inc/header.php");
+    require_once ("inc/navBar.php");
 ?>
     <div class="news">    
 
@@ -24,7 +26,7 @@
     </div><!-- end footer -->
 
 <h6 id="screenwidth"></h6>
-<script src="scripts/script.js"></script>
 </div> <!-- end global -->
+<script src="scripts/script.js"></script>
 </body>
 </html>

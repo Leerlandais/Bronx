@@ -4,7 +4,9 @@ body {
 
 .global {
     display: grid;
-    
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .linkWindow {
@@ -14,6 +16,7 @@ body {
     text-align: left;
     width: 100%;
     height: 60%;
+    margin: 10px auto;
 }
 
 .navBar {
@@ -50,6 +53,64 @@ body {
     font-weight: bolder ;
 }
 
+.headLogo {
+    width: 400px;
+    height: 70px;
+}
+
+.searchBar {
+    margin: 0 auto;
+    width: 350px;
+    height: 80px;
+    text-align: right;
+}
+
+.searchGlass {
+    width: 25px;
+    height: 25px;
+}
+
+.searchForm {
+   display: flex;
+   align-items: end;
+   justify-content: right;
+}
+
+#searchField {
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.langBar {
+   width: 320px;
+   margin-right: 0;
+}
+
+.langButton {
+    height: 20px;
+    width: 20px;
+}
+
+#langButEN {
+    background-image: url("../images/gb.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#langButFR {
+    background-image: url("../images/fr.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#langButBE {
+    background-image: url("../images/be.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 @media screen and (min-width: 750px) and (max-width: 950px) {
     
@@ -64,37 +125,91 @@ body {
 }
 
 @media screen and (min-width: 2000px)  {
-
+    .global {
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+    }
     
-.linkWindow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 80%;
+    .header {
+        width: 100%;
+        height: 24vh;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
 
-}
+    }
 
-.navBar {
-    display: flex;
-    flex-direction: row;
+    .headLogo{
+        width: 75%;
+        height: 60%;
+    }
 
-}
+    .linkWindow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 80%;
 
-.navImg {
-    width: 85%;
-    height: 18vh;
-}
+    }
 
-.linkWindow a {
-    border: 1px solid black;
-    border-radius: 8px;
-    padding: 5px 30px;
-    width: 70%;
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 12%;
-}
+    .navBar {
+        display: flex;
+        flex-direction: row;
 
+    }
+
+    .navImg {
+        width: 85%;
+        height: 18vh;
+    }
+
+    .linkWindow a {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 5px 30px;
+        width: 70%;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 12%;
+    }
+
+
+    .searchBar {
+        margin-right: 0 auto;
+        width: 25%;
+        height: 40%;
+        text-align: right;
+    }
+
+    .searchGlass {
+        width: 50px;
+        height: 50px;
+    }
+
+    .searchForm {
+       display: flex;
+       align-items: end;
+       justify-content: right;
+    }
+
+    #searchField {
+        border-bottom: 2px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 80%;
+    }
+
+    .langBar {
+        margin: 10px 0 0 30%;
+        
+    }
+
+    .langButton {
+        height: 30px;
+        width: 40px;
+    }
     
 }

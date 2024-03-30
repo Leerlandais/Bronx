@@ -1,29 +1,14 @@
 <div class="header">
-    
-    <div class="navBar"> 
-           <div class="linkWindow">
-            <a href=""><span class="linkSpan">PROGRAMME</span></a>
-            <img src="../public/images/photosHome/01.jpg" alt="navImg1" class="navImg">
-           </div>
-           <div class="linkWindow">
-            <a href=""><span class="linkSpan">STUDIO</span></a>
-            <img src="../public/images/photosHome/02.jpg" alt="navImg2" class="navImg">
-           </div>
-           <div class="linkWindow">
-            <a href=""><span class="linkSpan">ÉCOLES</span></a>
-            <img src="../public/images/photosHome/03.jpg" alt="navImg3" class="navImg">
-           </div>
-           <div class="linkWindow">
-            <a href=""><span class="linkSpan">OPEN HUIS</span></a>
-            <img src="../public/images/photosHome/04.jpg" alt="navImg4" class="navImg">
-           </div>
-           <div class="linkWindow">
-            <a href=""><span class="linkSpan">À PROPOS DE BRONKS</span></a>
-            <img src="../public/images/photosHome/05.jpg" alt="navImg5" class="navImg">
-           </div>
-           <div class="linkWindow">
-            <a href=""><span class="linkSpan">VOTRE VISITE</span></a>
-            <img src="../public/images/photosHome/06.jpg" alt="navImg6" class="navImg">
-           </div>
-    </div><!-- end navBar -->
-</div><!-- end header -->
+        <img src="../public/images/logoBronks.png" alt="logoBronx" class="headLogo">
+        <div class="searchBar">
+            <form action="" class="searchForm">
+                <input type="text" name="searchField" id="searchField" placeholder="Chercher">
+                <img src="../public/images/search.svg" alt="searchGlass" class="searchGlass">
+            </form>
+            <div class="langBar">
+                <button class="langButton" id="langButBE"></button>
+                <button class="langButton" id="langButFR"></button>
+                <button class="langButton" id="langButEN"></button>
+            </div>
+        </div>
+    </div><!-- end header --> 
