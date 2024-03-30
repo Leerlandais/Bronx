@@ -1,6 +1,6 @@
 <?php
 require_once "../config.php";
-
+require_once '../model/bronxModel.php';
 
 try {
     $db = new PDO(DB_DRIVER . ":host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET . ";port=" . DB_PORT, DB_LOGIN, DB_PWD);
@@ -8,6 +8,7 @@ try {
     die($e->getMessage());
 }    
 
+$program = getProgInfo($db);
 
 
 if(isset($_GET["p"])){
