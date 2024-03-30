@@ -9,7 +9,7 @@
 <body>
 <div class="global">
 <?php
-    
+    require_once ("inc/headerView.php");
     require_once ("inc/navBarView.php");
     
     

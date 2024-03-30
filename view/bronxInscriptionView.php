@@ -10,11 +10,12 @@
 <div class="global">
 
 <?php
+    require_once ("inc/headerView.php");
+    require_once ("inc/altNavBarView.php");
+    ?>
     
-    require_once ("inc/navBarView.php");
+
     
-    
-?>
 <h6 id="screenwidth"></h6>
 </div> <!-- end global -->
 <script src="scripts/script.js"></script>

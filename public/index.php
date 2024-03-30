@@ -21,7 +21,7 @@ if(isset($_GET["p"])){
             include("../view/bronxHuisView.php");
             break;
             case 'inscrire':
-                $title = "Inscrirez-Vous";
+                $title = "Inscrivez-Vous";
             include("../view/bronxInscriptionView.php");
             break;
             case 'program':

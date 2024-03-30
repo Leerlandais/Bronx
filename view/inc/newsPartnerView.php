@@ -1,7 +1,7 @@
 <div class="news">    
         <h3>RESTEZ INFORMÉ !</h3>
         <h4>Abonnez-vous à notre bulletin</h4>
-        <span class="inscriptionButton">S'INSCRIRE</span>
+       <a href="?p=inscrire" class="inscriptionButton"><span>S'INSCRIRE</span></a> 
     </div><!-- end news -->
 
     <div class="partners">

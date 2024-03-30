@@ -1,4 +1,5 @@
-    <div class="navBar"> 
+
+       <div class="navBar"> 
            <div class="linkWindow">
             <a href="?p=program"><span class="linkSpan">PROGRAMME</span></a>
             <img src="../public/images/photosHome/01.jpg" alt="navImg1" class="navImg">
@@ -24,3 +25,5 @@
             <img src="../public/images/photosHome/06.jpg" alt="navImg6" class="navImg">
            </div>
     </div><!-- end navBar -->
+
+
