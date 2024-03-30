@@ -10,20 +10,14 @@
 <div class="global">
   
 <?php
-    require_once ("inc/header.php");
-    require_once ("inc/navBar.php");
+    require_once ("inc/headerView.php");
+    require_once ("inc/navBarView.php");
+    require_once ("inc/newsPartnerView.php");
+    require_once ("inc/footerView.php");
 ?>
-    <div class="news">    
 
-    </div><!-- end news -->
 
-    <div class="partners">
 
-    </div><!-- end partners -->
-
-    <div class="footer">
-
-    </div><!-- end footer -->
 
 <h6 id="screenwidth"></h6>
 </div> <!-- end global -->
