@@ -42,7 +42,10 @@ if(isset($_GET["p"])){
                 $title = "Page 404";
                 include("../view/erreur404.php");
         }
-}else{
+    }else if (isset($_GET["showPro"])) {
+        $title = "Bronks Programme";
+        include("../view/bronxProgView.php");
+    }else{
     $title = "Page d'Accueil";
     include("../view/bronxHomeView.php");
 }

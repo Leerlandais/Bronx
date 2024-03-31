@@ -15,17 +15,25 @@
     require_once ("inc/altNavBarView.php");
     ?>
     <?php
-    foreach ($program as $prog) :
+    foreach ($program as $prog) {
+    if (isset($_GET["p"]) && $_GET["p"] == "program") {
     ?>    
         <div>
-            <p><?=substr($prog["description"], 50);?></p>
-            <img src="<?=$prog["img_src"]?>" alt="">
-            <h2>FOR TOMORROW - Page Layout, Img size, complete DB</h2>
+            <a href="?showPro=<?=$prog["slug"]?>"><h2><?=$prog["title"]?></h2></a>
+            <img src="<?=$prog["sm_img_src"]?>" alt="<?=$prog["slug"]?>">
+            <p><?=substr($prog["description"], 0, 50);?></p>
         </div>
     <?php
-    endforeach;
-    ?>
+}else if (isset($_GET["showPro"]) && $_GET["showPro"] == $prog["slug"]) { ?>
+    <div>
+        <a href="?showPro=<?=$prog["slug"]?>"><h2><?=$prog["title"]?></h2></a>
+        <img src="<?=$prog["img_src"]?>" alt="<?=$prog["slug"]?>">
+        <p><?=$prog["description"];?></p>
+    </div>
+    
     <?php 
+}
+} 
     require_once ("inc/newsPartnerView.php");
     require_once ("inc/footerView.php");
 ?>
