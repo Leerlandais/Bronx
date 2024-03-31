@@ -44,16 +44,7 @@ body {
     flex-direction: column;
 
 }
-.navImages {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-}
-.navImg {
-    width: 200px;
-    height: 15vh;
-}
+
 
 .navImg {
     width: 60%;
@@ -83,7 +74,9 @@ body {
 .linkSpan {
     font-weight: bolder ;
 }
-
+.linkSpan:hover {
+    background-color: yellow;
+}
 .headLogo {
     width: 400px;
     height: 70px;
@@ -283,8 +276,8 @@ body {
 
 @media screen and (min-width: 2000px)  {
     .global {
-        display: grid;
-        width: 80%;
+
+        width: 75%;
         margin: 0 auto;
     }
     
@@ -302,7 +295,7 @@ body {
         height: 60%;
     }
 
-    .linkWindow {
+    .linkWindow, .smLinkWindow {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -328,7 +321,7 @@ body {
         height: 15vh;
     }
 
-    .linkWindow a {
+    .linkWindow a, .smLinkWindow a {
         border: 1px solid black;
         border-radius: 8px;
         padding: 5px 30px;
@@ -377,7 +370,7 @@ body {
         height: 30px;
         width: 40px;
     }
-    .news {
+    .news{
         width: 95%;
         margin: 0 auto;
         height: 150px;
@@ -387,12 +380,28 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+    .altNews {
+        width: 95%;
+        margin: 0 auto;
+        height: 150px;
+        background-color: yellow;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     
     .news h3 {
         margin: 20px auto 0;
         width: 50%;
         text-align: center;
         height: 20px;
+    }
+
+    .altNews h3 {
+        margin: 5px auto 0;
     }
     
     .inscriptionButton {
@@ -437,6 +446,8 @@ body {
         text-decoration: none;
         color: black;
     }
+
+
     
     .studioBody {
         display: flex;
@@ -517,10 +528,11 @@ body {
         display: flex;
         flex-direction: column;
         align-items: start;
+        width: 60%;
     }
 
     .inscForm {
-        width: 80%;
+        width: 100%;
     }
     
     .formDiv {

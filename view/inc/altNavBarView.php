@@ -1,21 +1,21 @@
 
 <div class="navBar"> 
            <div class="smLinkWindow">
-            <a href="?p=program"><span class="linkSpan">PROGRAMME</span></a>
+            <a href="?p=program" class="linkSpan"><span>PROGRAMME</span></a>
        </div>
        <div class="smLinkWindow">
-              <a href="?p=studio"><span class="linkSpan">STUDIO</span></a>
+              <a href="?p=studio" class="linkSpan"><span>STUDIO</span></a>
        </div>
        <div class="smLinkWindow">
-              <a href="?p=school"><span class="linkSpan">ÉCOLES</span></a>
+              <a href="?p=school" class="linkSpan"><span>ÉCOLES</span></a>
        </div>
        <div class="smLinkWindow">
-              <a href="?p=huis"><span class="linkSpan">OPEN HUIS</span></a>
+              <a href="?p=huis" class="linkSpan"><span>OPEN HUIS</span></a>
        </div>
        <div class="smLinkWindow">
-              <a href="?p=unknown"><span class="linkSpan">À PROPOS DE BRONKS</span></a>
+              <a href="?p=unknown" class="linkSpan"><span>À PROPOS DE BRONKS</span></a>
        </div>
        <div class="smLinkWindow">
-              <a href="?p=home"><span class="linkSpan">HOME</span></a>
+              <a href="?p=home" class="linkSpan"><span>HOME</span></a>
        </div>
 </div><!-- end navBar -->

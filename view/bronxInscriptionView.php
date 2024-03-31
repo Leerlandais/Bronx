@@ -42,7 +42,10 @@
         </div>
     </form>
     </div>
-    
+    <?php
+    require_once ("inc/altNewsPartnerView.php");
+    require_once ("inc/footerView.php");
+?>  
 
 </div> <!-- end global -->
 <script src="scripts/script.js"></script>

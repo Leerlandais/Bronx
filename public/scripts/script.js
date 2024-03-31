@@ -34,9 +34,6 @@
 
 
 
-
-
-
 /*
 window.addEventListener('resize', displayScreenWidth); 
 
