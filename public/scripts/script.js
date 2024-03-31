@@ -1,3 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 window.addEventListener('resize', displayScreenWidth); 
 
 function displayScreenWidth() { 
@@ -6,3 +46,4 @@ function displayScreenWidth() {
     screenwidth.innerHTML = 'The screen width is: ' + theWidth;
 }
 displayScreenWidth();
+*/

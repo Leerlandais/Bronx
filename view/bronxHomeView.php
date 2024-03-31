@@ -19,7 +19,7 @@
 
 
 
-<h6 id="screenwidth"></h6>
+<!-- <h6 id="screenwidth"></h6>-->
 </div> <!-- end global -->
 <script src="scripts/script.js"></script>
 </body>
