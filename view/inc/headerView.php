@@ -11,4 +11,5 @@
                 <button class="langButton" id="langButEN"></button>
             </div>
         </div>
+        <h6 id="screenwidth"></h6>
     </div><!-- end header --> 

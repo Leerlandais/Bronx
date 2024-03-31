@@ -19,6 +19,7 @@ body {
     width: 100%;
     height: 60%;
     margin: 10px auto;
+
 }
 
 .smLinkWindow {
@@ -62,7 +63,7 @@ body {
 
 .linkWindow a {
     border: 1px solid black;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 5px 30px;
     margin-bottom: 5px;
     width: 40%;
@@ -262,15 +263,135 @@ body {
     font-weight: bold;
 }
 
-@media screen and (min-width: 750px) and (max-width: 950px) {
-    
-}
-
 @media screen and (min-width: 750px) and (max-width: 1200px) {
-    
+    .navImg {
+        width: 40%;
+        height: 60%;
+    }
+
 }
 
-@media screen and (min-width: 1200px) and (max-width: 2000px) {
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    .global {
+
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .header {
+        width: 100%;
+        height: 22vh;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .headLogo{
+        width: 75%;
+        height: 60%;
+    }
+
+    .linkWindow, .smLinkWindow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 80%;
+
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+
+    .navImg {
+        width: 180px;
+        height: 12vh;
+    }
+
+    .linkWindow a, .smLinkWindow a {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 5px 30px;
+        width: 60%;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 12%;
+        font-size: 11px;
+    }
+    .inscriptionButton {
+    
+        width: 15%;
+    
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 2000px) {
+    .global {
+
+        width: 100%;
+        margin: 0 auto;
+    }
+    .inscriptionButton {
+    
+        width: 12%;
+    
+    }
+    .header {
+        width: 100%;
+        height: 22vh;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .headLogo{
+        width: 75%;
+        height: 60%;
+    }
+
+    .linkWindow, .smLinkWindow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 80%;
+
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .navImages {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .navImg {
+        width: 240px;
+        height: 15vh;
+    }
+
+    .linkWindow a, .smLinkWindow a {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 5px 30px;
+        width: 60%;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 12%;
+        font-size: small;
+    }
+
     
 }
 
@@ -370,6 +491,8 @@ body {
         height: 30px;
         width: 40px;
     }
+
+
     .news{
         width: 95%;
         margin: 0 auto;
@@ -439,7 +562,7 @@ body {
     
     .smLinkWindow a {
         border: 1px solid black;
-        border-radius: 3px;
+        border-radius: 8px;
         padding: 5px 30px;
         width: 70%;
         text-align: center;
