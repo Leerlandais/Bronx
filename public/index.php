@@ -10,6 +10,48 @@ try {
 
 $program = getProgInfo($db);
 
+if(isset($_GET["lang"])) {
+    switch($_GET["lang"]){
+        case 'en' :
+            $linkHome = "HOME";
+            $linkProg = "PROGRAM";
+            $linkStud = "STUDIO";
+            $linkScho = "SCHOOLS";
+            $linkHous = "OPEN HOUSE";
+            $linkInfo = "ABOUT US";
+            break;
+        case 'nl' :
+            $linkHome = "THUIS";
+            $linkProg = "PROGRAMMA";
+            $linkStud = "STUDIO";
+            $linkScho = "SCHOLEN";
+            $linkHous = "OPEN HUIS";
+            $linkInfo = "OVER ONS";
+            break;
+        case 'fr' :
+            $linkHome = "ACCUEIL";
+            $linkProg = "PROGRAM";
+            $linkStud = "STUDIO";
+            $linkScho = "ÉCOLES";
+            $linkHous = "PORTES OUVERTS";
+            $linkInfo = "À PROPOS DE NOUS";
+            break;
+            default :
+            $linkHome = "ACCUEIL";
+            $linkProg = "PROGRAM";
+            $linkStud = "STUDIO";
+            $linkScho = "ÉCOLES";
+            $linkHous = "PORTES OUVERTS";
+            $linkInfo = "À PROPOS DE NOUS";
+    }
+}else {
+    $linkHome = "ACCUEIL";
+    $linkProg = "PROGRAM";
+    $linkStud = "STUDIO";
+    $linkScho = "ÉCOLES";
+    $linkHous = "PORTES OUVERTS";
+    $linkInfo = "À PROPOS DE NOUS";
+}
 
 if(isset($_GET["p"])){
     switch($_GET["p"]){
