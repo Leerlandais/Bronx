@@ -269,6 +269,12 @@ body {
         height: 60%;
     }
 
+    
+    .studioImg{
+        width:  60%;
+        height: 400px;
+    }
+
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
@@ -276,6 +282,10 @@ body {
 
         width: 100%;
         margin: 0 auto;
+    }
+    .studioImg{
+        width:  60%;
+        height: 400px;
     }
     
     .header {
@@ -330,7 +340,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1500px) and (max-width: 2000px) {
+@media screen and (min-width: 1500px) and (max-width: 1800px) {
     .global {
 
         width: 100%;
@@ -392,10 +402,13 @@ body {
         font-size: small;
     }
 
-    
+    .studioImg{
+        width:  70%;
+        height: 500px;
+    }
 }
 
-@media screen and (min-width: 2000px)  {
+@media screen and (min-width: 1800px)  {
     .global {
 
         width: 75%;
