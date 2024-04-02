@@ -30,7 +30,7 @@ if(isset($_GET["lang"])) {
             break;
         case 'fr' :
             $linkHome = "ACCUEIL";
-            $linkProg = "PROGRAM";
+            $linkProg = "PROGRAMME";
             $linkStud = "STUDIO";
             $linkScho = "ÉCOLES";
             $linkHous = "PORTES OUVERTS";
@@ -38,7 +38,7 @@ if(isset($_GET["lang"])) {
             break;
             default :
             $linkHome = "ACCUEIL";
-            $linkProg = "PROGRAM";
+            $linkProg = "PROGRAMME";
             $linkStud = "STUDIO";
             $linkScho = "ÉCOLES";
             $linkHous = "PORTES OUVERTS";
@@ -46,7 +46,7 @@ if(isset($_GET["lang"])) {
     }
 }else {
     $linkHome = "ACCUEIL";
-    $linkProg = "PROGRAM";
+    $linkProg = "PROGRAMME";
     $linkStud = "STUDIO";
     $linkScho = "ÉCOLES";
     $linkHous = "PORTES OUVERTS";
