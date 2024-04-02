@@ -20,6 +20,8 @@ body {
     width: 100%;
     height: 60%;
     margin: 10px auto;
+    font-family: Impact;
+    font-weight: 50;
 
 }
 
@@ -29,6 +31,8 @@ body {
     align-items: center;
     width: 50%;
     margin: 3px auto;
+    font-family: Impact;
+    font-weight: 50;
 }
 
 .smLinkWindow a {
@@ -146,6 +150,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .news h3, .news h4 {
@@ -171,7 +176,8 @@ body {
     margin-top: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;    
+
 }
 
 .partners img {
