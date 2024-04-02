@@ -3,6 +3,7 @@ body {
 }
 
 .global {
+    font-family: inter;
     display: flex;
     flex-direction: column;
     width: 100%;

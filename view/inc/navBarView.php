@@ -1,7 +1,7 @@
 
        <div class="navBar"> 
            <div class="linkWindow">
-            <a href="?p=program" class="linkSpan"><span class="linkSpan"><?=$linkProg?></span></a>
+            <a href="?p=program" class="linkSpan"><span><?=$linkProg?></span></a>
             <img src="../public/images/photosHome/01.jpg" alt="navImg1" class="navImg">
            </div>
            <div class="linkWindow">
